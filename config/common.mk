@@ -20,8 +20,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.com.android.dataroaming=false \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
-    ro.com.android.dateformat=MM-dd-yyyy \
-    persist.sys.disable_rescue=true
+    ro.com.android.dateformat=MM-dd-yyyy
 
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
